@@ -1,5 +1,5 @@
 header {
-    position: fixed;
+    position: relative;
     width: 100%;
     box-sizing: border-box;
     background: #fff;
@@ -122,6 +122,10 @@ header div.language li.active a {
 }
 
 @media screen and (max-width: 800px) {
+    header {
+        position: fixed;
+    }
+
     header > div {
         justify-content: flex-end;
     }
