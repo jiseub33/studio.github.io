@@ -4,6 +4,13 @@ div.main {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+/* 메인 컨텐츠 제목 */
+div.main div > h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+
+/* 메인 비디오 */
 div.main .visual-area .video-canvas {
     overflow: hidden;
     position: relative;
@@ -37,13 +44,47 @@ div.main .visual-area .video-canvas div.title h1 {
     transform: translate(-50%, -50%);
 }
 
+div.main .visual-area .m-video-canvas {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+div.main .visual-area .m-video-canvas video {
+    position: relative;
+    margin: 80px 0 0 0;
+    width: 100%;
+    height: auto;
+}
+
+div.main .visual-area .m-video-canvas div.title h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-size: 80px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1000px) {
+    div.main .visual-area .video-canvas {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    div.main .visual-area .m-video-canvas {
+        display: none;
+    }
+}
+
+/* 메인 우수고객 */
 div.main .partner {
     margin: 20px auto;
     width: 100%;
     max-width: 1400px;
     text-align: center;
-    font-family: 'Anton', sans-serif;
-    font-size: 30px;
 }
 
 div.main .partner > div {
@@ -66,4 +107,71 @@ div.main .partner div ul li {
 
 div.main .partner div ul li:hover {
     transform: scale(1.3);
+}
+
+
+/* 메인 포토폴리오 */
+div.main .onAIR {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1400px;
+    text-align: center;
+}
+
+div.main .onAIR > div {
+    padding: 20px;
+    margin: 10px 0 0 0;
+}
+
+div.main .onAIR div ul {
+
+}
+
+div.main .onAIR div ul li {
+    overflow: hidden;
+    display: inline-block;
+    width: 400px;
+    height: 577px;
+}
+
+div.main .onAIR div ul li:hover a img {
+    filter: brightness(0.5);
+}
+
+div.main .onAIR div ul li:hover a span {
+    opacity: 1;
+}
+
+div.main .onAIR div ul li a {
+    display: block;
+    position: relative;
+}
+
+div.main .onAIR div ul li a img {
+    width: 100%;
+    filter: brightness(1);
+    transition: all 1s;
+}
+
+div.main .onAIR ul li a span {
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    text-align: right;
+    color: #fff;
+    opacity: 0;
+    transition: all 1s;
+    z-index: 10;
+}
+
+div.main .onAIR ul li a span h1 {
+    line-height: 1;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 60px;
+}
+
+div.main .onAIR ul li a span p {
+    margin-top: 5px;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 30px;
 }

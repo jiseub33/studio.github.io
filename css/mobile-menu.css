@@ -7,13 +7,13 @@ input {
 label {
     display:block;
     position:fixed;
-    margin:30px;
+    margin: 27.5px;
     cursor:pointer;
     z-index: 100;
 }
 
 label div {
-    width: 30px;
+    width: 25px;
     height: 25px;
     background: url("../images/icons/menu-bar.svg") no-repeat;
 }
