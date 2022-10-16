@@ -2,13 +2,17 @@ header {
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    background: #fff;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 500;
-    z-index: 100;
+    z-index: 10;
 }
 
-header > div {
+header div.canvas {
+    width: 100%;
+    background: #fff;
+}
+
+header div.canvas > div {
     display: flex;
     justify-content: space-between;
     flex-grow: 1;
@@ -16,11 +20,13 @@ header > div {
     width: 100%;
     max-width: 1400px;
     box-sizing: border-box;
+    z-index: 150;
 }
 
 header div.logo {
-    padding: 10px;
+    padding: 15px;
     display: inline-block;
+    box-sizing: border-box;
 }
 
 header div.logo a {
@@ -37,12 +43,13 @@ header div.menu {
 }
 
 header div.menu ul {
-
+    height: 100%;
 }
 
 header div.menu li {
     display: inline-block;
-    padding: 25px 20px;
+    padding: 35px 25px;
+    box-sizing: border-box;
 }
 
 header div.menu li a {
@@ -62,9 +69,9 @@ header div.menu li div.detail-menu {
     width: 100%;
     height: 400px;
     background: #fff;
-    z-index: -1;
     transform: translateY(-100%);
     transition: all 1s;
+    z-index: -1;
 }
 
 header div.menu li div.detail-menu div {
@@ -106,12 +113,13 @@ header div.language {
 }
 
 header div.language ul {
-
+    height: 100%;
 }
 
 header div.language li {
     display: inline-block;
-    padding: 30px 10px;
+    padding: 35px 10px;
+    box-sizing: border-box;
 }
 
 header div.language li a {
@@ -122,12 +130,12 @@ header div.language li.active a {
     font-weight: 800;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     header {
         position: fixed;
     }
 
-    header > div {
+    header div.canvas > div {
         justify-content: flex-end;
     }
 
@@ -140,7 +148,7 @@ header div.language li.active a {
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .fixheader {
         display: none;
     }

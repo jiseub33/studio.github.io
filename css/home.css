@@ -19,7 +19,6 @@ div.main .visual-area .video-canvas video {
     background-size: 100%;
     background-size: cover;
     object-fit: cover;
-    z-index: -2;
 }
 
 div.main .visual-area .video-canvas div.title {
