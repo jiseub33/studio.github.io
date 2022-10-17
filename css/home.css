@@ -124,12 +124,15 @@ div.main .onAIR > div {
 }
 
 div.main .onAIR div ul {
-
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 div.main .onAIR div ul li {
     overflow: hidden;
-    display: inline-block;
+    display: block;
+    margin: 25px;
     width: 400px;
     height: 577px;
 }
