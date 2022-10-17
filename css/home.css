@@ -81,10 +81,12 @@ div.main .visual-area .m-video-canvas div.title h1 {
 
 /* 메인 우수고객 */
 div.main .partner {
+    padding: 10px;
     margin: 20px auto;
     width: 100%;
     max-width: 1400px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 div.main .partner > div {
@@ -112,10 +114,12 @@ div.main .partner div ul li:hover {
 
 /* 메인 포토폴리오 */
 div.main .onAIR {
+    padding: 10px;
     margin: 20px auto;
     width: 100%;
     max-width: 1400px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 div.main .onAIR > div {
@@ -135,6 +139,12 @@ div.main .onAIR div ul li {
     margin: 25px;
     width: 400px;
     height: 577px;
+}
+
+@media screen and (max-width: 864px) {
+    div.main .onAIR div ul li {
+        margin: 5;
+    }
 }
 
 div.main .onAIR div ul li:hover a img {

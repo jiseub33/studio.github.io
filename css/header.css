@@ -143,11 +143,11 @@ header div.language li.active a {
         width: 150px;
     }
 
-    div.menu {
+    header div.menu {
         display: none;
     }
 
-    div.language {
+    header div.language {
         display: none;
     }
 }
