@@ -114,12 +114,10 @@ div.main .partner div ul li:hover {
 
 /* 메인 포토폴리오 */
 div.main .onAIR {
-    padding: 10px;
     margin: 20px auto;
     width: 100%;
     max-width: 1400px;
     text-align: center;
-    box-sizing: border-box;
 }
 
 div.main .onAIR > div {
