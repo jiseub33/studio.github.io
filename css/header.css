@@ -12,6 +12,13 @@ header div.canvas {
     background: #fff;
 }
 
+@media screen and (max-width: 1000px) {
+    header div.canvas {
+        background: none;
+    }
+}
+
+
 header div.canvas > div {
     display: flex;
     justify-content: space-between;

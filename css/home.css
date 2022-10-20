@@ -44,41 +44,6 @@ div.main .visual-area .video-canvas div.title h1 {
     transform: translate(-50%, -50%);
 }
 
-div.main .visual-area .m-video-canvas {
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-div.main .visual-area .m-video-canvas video {
-    position: relative;
-    margin: 80px 0 0 0;
-    width: 100%;
-    height: auto;
-}
-
-div.main .visual-area .m-video-canvas div.title h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    font-size: 80px;
-    color: #fff;
-    transform: translate(-50%, -50%);
-}
-
-@media screen and (max-width: 1000px) {
-    div.main .visual-area .video-canvas {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 1000px) {
-    div.main .visual-area .m-video-canvas {
-        display: none;
-    }
-}
-
 /* 메인 우수고객 */
 div.main .partner {
     padding: 10px;
@@ -136,7 +101,6 @@ div.main .onAIR div ul li {
     display: block;
     margin: 25px;
     width: 400px;
-    height: 577px;
 }
 
 @media screen and (max-width: 864px) {
