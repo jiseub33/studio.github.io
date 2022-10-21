@@ -19,6 +19,12 @@ div.main .visual-area .video-canvas {
     height: 800px;
 }
 
+@media screen and (max-width: 1000px) {
+    div.main .visual-area .video-canvas {
+        margin: 100vh;
+    }
+}
+
 div.main .visual-area .video-canvas video {
     position: absolute;
     width: 100%;
