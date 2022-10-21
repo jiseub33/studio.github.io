@@ -1,6 +1,6 @@
 $(function(){
       $(window).scroll(function(){
-        if ($(this).scrollTop() > 800) {
+        if ($(this).scrollTop() > 650) {
           $('div.canvas').css('background','white')
         }
         else {

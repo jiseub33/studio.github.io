@@ -45,6 +45,19 @@ header div.logo img {
     width: 100%;
 }
 
+@media screen and (min-width: 1000px) {
+    header div.logo img:nth-child(2) {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    header div.logo img:nth-child(1) {
+        display: none;
+    }
+}
+
 header div.menu {
     width: 50%;
 }
