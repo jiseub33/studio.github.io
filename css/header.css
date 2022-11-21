@@ -12,13 +12,6 @@ header div.canvas {
     background: #fff;
 }
 
-@media screen and (max-width: 1000px) {
-    header div.canvas {
-        background: none;
-    }
-}
-
-
 header div.canvas > div {
     display: flex;
     justify-content: space-between;
@@ -38,24 +31,11 @@ header div.logo {
 
 header div.logo a {
     display: block;
-    width: 200px;
+    width: 150px;
 }
 
 header div.logo img {
     width: 100%;
-}
-
-@media screen and (min-width: 1000px) {
-    header div.logo img:nth-child(2) {
-        display: none;
-    }
-}
-
-
-@media screen and (max-width: 1000px) {
-    header div.logo img:nth-child(1) {
-        display: none;
-    }
 }
 
 header div.menu {
@@ -68,13 +48,13 @@ header div.menu ul {
 
 header div.menu li {
     display: inline-block;
-    padding: 35px 25px;
+    padding: 30px 25px;
     box-sizing: border-box;
 }
 
 header div.menu li a {
     display: block;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 header div.menu li div.detail-menu {
@@ -109,7 +89,7 @@ header div.menu li div.detail-menu div ul{
 
 header div.menu li div.detail-menu div ul li {
     padding: 0;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
     display: block;
     font-size: 25px;
     font-weight: 300;
@@ -138,12 +118,13 @@ header div.language ul {
 
 header div.language li {
     display: inline-block;
-    padding: 35px 10px;
+    padding: 30px 10px;
     box-sizing: border-box;
 }
 
 header div.language li a {
     display: block;
+    font-size: 15px;
 }
 
 header div.language li.active a {

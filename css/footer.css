@@ -9,90 +9,6 @@ footer > div {
     border-top: 1px solid #E2E2E2;
 }
 
-footer div.footer-top {
-    width: 100%;
-}
-
-footer div.footer-top > div {
-    margin: 0 auto;
-    padding: 40px;
-    width: 100%;
-    max-width: 1400px;
-    font-weight: 600;
-    box-sizing: border-box;
-}
-
-footer div.footer-top div div.footer-top-menu {
-    display: flex;
-    justify-content: space-around;
-}
-
-footer div.footer-top div div.footer-top-menu ul {
-
-}
-
-footer div.footer-top div div.footer-top-menu ul li {
-
-}
-
-footer div.footer-top div div.footer-top-menu ul li~ li {
-    margin: 10px 0 0 0;
-}
-
-footer div.footer-top div div.footer-top-menu ul li h1 {
-    font-size: 15px;
-    font-weight: 600;
-}
-
-footer div.footer-top div div.footer-top-menu ul li a {
-    color: #5c5c5c;
-    font-size: 15px;
-    font-weight: 300;
-}
-
-@media screen and (max-width: 1000px) {
-    footer div.footer-top div {
-        padding: 0;
-    }
-
-    footer div.footer-top div div.footer-top-menu {
-        display: none;
-    }
-}
-
-footer div.footer-top div div.m-footer-top-menu {
-
-}
-
-footer div.footer-top div div.m-footer-top-menu details{
-    box-sizing: border-box;
-}
-
-footer div.footer-top div div.m-footer-top-menu details ~ details{
-    border-top: 1px solid #E2E2E2;
-}
-
-footer div.footer-top div div.m-footer-top-menu details > summary{
-    padding: 15px 20px;
-    font-size: 15px;
-    font-weight: 600;
-    list-style: none;
-}
-
-footer div.footer-top div div.m-footer-top-menu details > span{
-    padding: 15px 20px;
-    display: block;
-    color: #5c5c5c;
-    font-size: 15px;
-    font-weight: 300;
-}
-
-@media screen and (min-width: 1000px) {
-    footer div.footer-top div div.m-footer-top-menu {
-        display: none;
-    }
-}
-
 footer div.footer-middle {
     width: 100%;
 }
@@ -127,7 +43,6 @@ footer div.footer-bottom > div {
     padding: 40px;
     margin: 0 auto;
     width: 100%;
-    height: 200px;
     max-width: 1400px;
     box-sizing: border-box;
 }
@@ -184,21 +99,18 @@ footer div.footer-bottom div.sns {
 }
 
 footer div.footer-bottom div.sns ul {
-    height: 50px;
     box-sizing: border-box;
 }
 
 footer div.footer-bottom div.sns ul li{
     display: inline-block;
     margin: 0 20px;
-    line-height: 50px;
     box-sizing: border-box;
 }
 
 footer div.footer-bottom div.sns ul li a {
     display: block;
     width: 50px;
-    height: 50px;
 }
 
 footer div.footer-bottom div.sns ul li a img {
@@ -210,7 +122,6 @@ footer div.footer-bottom div.sns ul li a img {
     footer div.footer-bottom div.sns ul li{
         display: inline-block;
         margin: 0 10px;
-        line-height: 30px;
     }
 
     footer div.footer-bottom div.sns ul li a {
