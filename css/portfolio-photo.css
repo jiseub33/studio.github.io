@@ -1,0 +1,13 @@
+/* 검색옵션 */
+
+div.main .portfolio input.all:checked ~ div ul li {
+    display: block;
+}
+
+div.main .portfolio input.shooting:checked ~ div ul li.shooting {
+    display: block;
+}
+
+div.main .portfolio input.poster:checked ~ div ul li.poster {
+    display: block;
+}

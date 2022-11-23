@@ -1,0 +1,147 @@
+/* 메인 비디오 */
+div.main .visual-area .video-canvas {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+    div.main .visual-area .video-canvas {
+        height: 100vh;
+    }
+}
+
+div.main .visual-area .video-canvas video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+div.main .visual-area .video-canvas div.title {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba( 0, 0, 0, 0.1);
+}
+
+div.main .visual-area .video-canvas div.title h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+/* 포토폴리오 */
+div.main .portfolio {
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+}
+
+div.main .portfolio input {
+    display: none;
+}
+
+div.main .portfolio label {
+    display: inline-block;
+    padding: 0 0 0 30px;
+    margin: 40px 30px;
+    background: url(../images/icons/checkbox-line.svg) no-repeat left;
+    background-size: auto;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+div.main .portfolio input:checked + label {
+    background: url(../images/icons/checkbox-fill.svg) no-repeat left;
+}
+
+@media screen and (max-width: 1000px) {
+    div.main .portfolio label {
+        margin: 20px;
+        padding: 0 0 0 25px;
+        font-size: 15px;
+        background-size: 20px;
+    }
+
+    div.main .portfolio input:checked + label {
+        background-size: 20px;
+    }
+}
+
+/* 포토폴리오 리스트 */
+
+div.main .portfolio > div {
+
+}
+
+div.main .portfolio div ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.main .portfolio div li {
+    overflow: hidden;
+    display: none;
+    margin: 20px;
+    width: 300px;
+}
+
+
+div.main .portfolio div ul li:hover a img {
+    filter: brightness(0.5);
+}
+
+div.main .portfolio div ul li:hover a span {
+    opacity: 1;
+}
+
+div.main .portfolio div ul li a {
+    display: block;
+    position: relative;
+}
+
+div.main .portfolio div ul li a img {
+    width: 100%;
+    filter: brightness(1);
+    transition: all 1s;
+}
+
+div.main .portfolio ul li a span {
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    text-align: right;
+    color: #fff;
+    opacity: 0;
+    transition: all 1s;
+    z-index: 10;
+}
+div.main .portfolio ul li a span h1 {
+    line-height: 1;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 40px;
+}
+
+div.main .portfolio ul li a span p {
+    margin-top: 5px;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 30px;
+}
+
+div.main .portfolio h2.link a {
+    color: #fff;
+}

@@ -1,0 +1,25 @@
+/* 검색옵션 */
+
+div.main .portfolio input.all:checked ~ div ul li {
+    display: block;
+}
+
+div.main .portfolio input.movie:checked ~ div ul li.movie {
+    display: block;
+}
+
+div.main .portfolio input.drama:checked ~ div ul li.drama {
+    display: block;
+}
+
+div.main .portfolio input.Motion-graphic:checked ~ div ul li.Motion-graphic {
+    display: block;
+}
+
+div.main .portfolio input.Typo-graphic:checked ~ div ul li.Typo-graphic {
+    display: block;
+}
+
+div.main .portfolio input.ucc:checked ~ div ul li.ucc {
+    display: block;
+}

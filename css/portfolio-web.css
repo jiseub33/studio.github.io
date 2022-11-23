@@ -1,0 +1,17 @@
+/* 검색옵션 */
+
+div.main .portfolio input.all:checked ~ div ul li {
+    display: block;
+}
+
+div.main .portfolio input.group:checked ~ div ul li.group {
+    display: block;
+}
+
+div.main .portfolio input.entertainment:checked ~ div ul li.entertainment {
+    display: block;
+}
+
+div.main .portfolio input.agency:checked ~ div ul li.agency {
+    display: block;
+}

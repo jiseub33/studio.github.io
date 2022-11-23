@@ -1,0 +1,13 @@
+/* 검색옵션 */
+
+div.main .portfolio input.all:checked ~ div ul li {
+    display: block;
+}
+
+div.main .portfolio input.event:checked ~ div ul li.event {
+    display: block;
+}
+
+div.main .portfolio input.youtuber:checked ~ div ul li.youtuber {
+    display: block;
+}
