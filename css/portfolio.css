@@ -50,6 +50,12 @@ div.main .portfolio {
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 1000px) {
+    div.main .portfolio {
+        padding: 20px 0;
+    }
+}
+
 div.main .portfolio input {
     display: none;
 }
@@ -100,6 +106,13 @@ div.main .portfolio div li {
     width: 300px;
 }
 
+@media screen and (max-width: 1000px) {
+    div.main .portfolio div li {
+        margin: 20px 5px;;
+        width: 150px;
+    }
+}
+
 
 div.main .portfolio div ul li:hover a img {
     filter: brightness(0.5);
@@ -131,15 +144,23 @@ div.main .portfolio ul li a span {
     z-index: 10;
 }
 div.main .portfolio ul li a span h1 {
-    line-height: 1;
     font-family: 'East Sea Dokdo', cursive;
     font-size: 40px;
 }
 
 div.main .portfolio ul li a span p {
-    margin-top: 5px;
     font-family: 'East Sea Dokdo', cursive;
     font-size: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    div.main .portfolio ul li a span h1 {
+        font-size: 30px;
+    }
+
+    div.main .portfolio ul li a span p {
+        font-size: 20px;
+    }
 }
 
 div.main .portfolio h2.link a {

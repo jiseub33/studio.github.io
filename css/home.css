@@ -139,9 +139,10 @@ div.main .onAIR div ul li {
     width: 300px;
 }
 
-@media screen and (max-width: 864px) {
+@media screen and (max-width: 1000px) {
     div.main .onAIR div ul li {
-        margin: 5;
+        margin: 20px 5px;;
+        width: 150px;
     }
 }
 
@@ -185,6 +186,16 @@ div.main .onAIR ul li a span p {
     margin-top: 5px;
     font-family: 'East Sea Dokdo', cursive;
     font-size: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    div.main .onAIR ul li a span h1 {
+        font-size: 30px;
+    }
+
+    div.main .onAIR ul li a span p {
+        font-size: 20px;
+    }
 }
 
 div.main .onAIR h2.link a {
