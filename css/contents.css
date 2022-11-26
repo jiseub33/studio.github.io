@@ -99,6 +99,23 @@ div.content .content-title ul li img {
     object-fit: cover;
 }
 
+div.content .content-title ul li.youtube div {
+    position:relative;
+    padding-bottom: 50%;
+    padding-top: 25px;
+    height: 0;
+    overflow: hidden;
+}
+
+div.content .content-title ul li.youtube div iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 div.content .content-title div.link {
     margin: 10px 0 0 0;
     text-align: right;

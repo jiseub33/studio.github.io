@@ -5,12 +5,12 @@ div.main .portfolio input.all:checked ~ div ul li {
     animation: all 1s ease;
 }
 
-div.main .portfolio input.movie:checked ~ div ul li.movie {
+div.main .portfolio input.variety:checked ~ div ul li.variety {
     display: block;
     animation: some 1s ease;
 }
 
-div.main .portfolio input.drama:checked ~ div ul li.drama {
+div.main .portfolio input.public:checked ~ div ul li.public {
     display: block;
     animation: some 1s ease;
 }
@@ -20,7 +20,7 @@ div.main .portfolio input.Motion-graphic:checked ~ div ul li.Motion-graphic {
     animation: some 1s ease;
 }
 
-div.main .portfolio input.Typo-graphic:checked ~ div ul li.Typo-graphic {
+div.main .portfolio input.Typo-graphy:checked ~ div ul li.Typo-graphy {
     display: block;
     animation: some 1s ease;
 }
