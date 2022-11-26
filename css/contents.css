@@ -99,6 +99,89 @@ div.content .content-title ul li img {
     object-fit: cover;
 }
 
+div.content .content-title div.link {
+    margin: 10px 0 0 0;
+    text-align: right;
+}
+
+div.content .content-title div.link h1 {
+    font-size: 30px;
+}
+
+div.content .content-title div.link a {
+    display: inline-block;
+    padding: 2.5px 10px 2.5px 40px;
+    margin: 0 5px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 45px;
+    box-sizing: border-box;
+    transition: 1s all;
+}
+
+div.content .content-title div.link a.youtube {
+    background: url(../images/sns/youtube_ch.png) no-repeat 0px / 37.5px auto #ff0000;
+    color: #fff;
+    box-shadow: 0px 0px 1px 1px #ff0000;
+}
+
+div.content .content-title div.link a.facebook {
+    background: url(../images/sns/facebook_ch.png) no-repeat 0px / 37.5px auto #1977f3;
+    color: #fff;
+    box-shadow: 0px 0px 1px 1px #1977f3;
+}
+
+div.content .content-title div.link a.instagram {
+    background: url(../images/sns/instagram_ch.png) no-repeat 0px / 37.5px auto;
+    box-shadow: 0px 0px 1px 1px rgb(200 200 200);
+    border: 1px solid #f000;
+}
+
+div.content .content-title div.link a.kakao {
+    background: url(../images/sns/kakao_ch.png) no-repeat 0px / 37.5px auto #ffe100;
+    box-shadow: 0px 0px 1px 1px #ffe100;
+    border: 1px solid #f000;
+}
+
+div.content .content-title div.link a.cnbs {
+    background: url(../images/sns/cnbs.png) no-repeat 0px / 37.5px auto #000;
+    color: #fff;
+    box-shadow: 0px 0px 1px 1px rgb(200 200 200);
+    border: 1px solid #f000;
+}
+
+div.content .content-title div.link a.netflix {
+    background: url(../images/sns/netflix.png) no-repeat 0px / 37.5px auto #000;
+    color: #fff;
+    box-shadow: 0px 0px 1px 1px rgb(200 200 200);
+    border: 1px solid #f000;
+}
+
+div.content .content-title div.link a.youtube:hover {
+    box-shadow: 0px 0px 10px 1px #ff0000;
+}
+
+div.content .content-title div.link a.facebook:hover {
+    box-shadow: 0px 0px 10px 1px #1977f3;
+}
+
+div.content .content-title div.link a.instagram:hover {
+    box-shadow: 0px 0px 10px 1px rgb(100 100 100);
+}
+
+div.content .content-title div.link a.kakao:hover {
+    box-shadow: 0px 0px 10px 1px #ffe100;
+}
+
+div.content .content-title div.link a.cnbs:hover {
+    box-shadow: 0px 0px 10px 1px rgb(100 100 100);
+}
+
+div.content .content-title div.link a.netflix:hover {
+    box-shadow: 0px 0px 10px 1px rgb(100 100 100);
+}
+
 div.content .content-img {
     overflow: hidden;
     width: 90%;
