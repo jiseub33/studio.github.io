@@ -137,6 +137,8 @@ div.main .onAIR div ul li {
     display: block;
     margin: 20px;
     width: 300px;
+    border-radius: 10px;
+    line-height: 0;
 }
 
 @media screen and (max-width: 1000px) {

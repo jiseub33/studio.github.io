@@ -41,10 +41,11 @@ div.main .visual-area .video-canvas div.title h1 {
 
 /* 포토폴리오 */
 div.main .portfolio {
+    overflow: hidden;
     padding: 20px;
     margin: 0 auto;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
     box-sizing: border-box;
@@ -106,63 +107,96 @@ div.main .portfolio div li {
     width: 300px;
 }
 
-@media screen and (max-width: 1000px) {
-    div.main .portfolio div li {
-        margin: 20px 5px;;
-        width: 150px;
+@media screen and (min-width: 1000px) {
+    div.main .portfolio div ul li:hover a div.cover_img img {
+        filter: brightness(0.7);
+        transform: scale(1.1);
     }
-}
 
-
-div.main .portfolio div ul li:hover a img {
-    filter: brightness(0.5);
-}
-
-div.main .portfolio div ul li:hover a span {
-    opacity: 1;
+    div.main .portfolio div ul li:hover a div.cover_img span {
+        opacity: 1;
+    }
 }
 
 div.main .portfolio div ul li a {
     display: block;
-    position: relative;
 }
 
-div.main .portfolio div ul li a img {
+div.main .portfolio div ul li a div.cover_img {
+    overflow: hidden;
+    position: relative;
+    line-height: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+div.main .portfolio div ul li a div.cover_img img {
     width: 100%;
     filter: brightness(1);
     transition: all 1s;
 }
 
-div.main .portfolio ul li a span {
+div.main .portfolio ul li a div.cover_img span {
     position: absolute;
-    right: 5%;
+    left: 5%;
     bottom: 10%;
-    text-align: right;
+    text-align: left;
     color: #fff;
     opacity: 0;
     transition: all 1s;
     z-index: 10;
 }
-div.main .portfolio ul li a span h1 {
+div.main .portfolio ul li a div.cover_img span h1 {
     font-family: 'East Sea Dokdo', cursive;
     font-size: 40px;
+    line-height: 40px;
 }
 
-div.main .portfolio ul li a span p {
+div.main .portfolio ul li a div.cover_img span h2 {
+    margin: 0 0 10px;
     font-family: 'East Sea Dokdo', cursive;
-    font-size: 30px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+div.main .portfolio ul li a div.cover_img span p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    font-size: 10px;
+    line-height: 15px;
 }
 
 @media screen and (max-width: 1000px) {
-    div.main .portfolio ul li a span h1 {
-        font-size: 30px;
-    }
-
-    div.main .portfolio ul li a span p {
-        font-size: 20px;
+    div.main .portfolio ul li a div.cover_img span {
+        display: none;
     }
 }
 
-div.main .portfolio h2.link a {
-    color: #fff;
+div.main .portfolio ul li a div.cover_title {
+    padding: 10px 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+div.main .portfolio ul li a div.cover_title h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+div.main .portfolio ul li a div.cover_title p {
+    display: none;
+    padding: 10px 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 10px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+    div.main .portfolio ul li a div.cover_title p {
+        display: block;
+    }
 }

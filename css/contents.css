@@ -1,0 +1,114 @@
+/* 메인 비디오 */
+div.main .visual-area .img-canvas {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+}
+
+div.main .visual-area .img-canvas img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.main .visual-area .img-canvas div.title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-shadow: inset 0px -10px 25px -10px black;
+}
+
+
+@media screen and (max-width: 1000px) {
+    div.main .visual-area .img-canvas div.title {
+        display: none;
+    }
+}
+
+
+div.main .visual-area .img-canvas div.title h1 {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    font-size: 60px;
+    color: #fff;
+}
+
+/* 프로그램 정보 */
+
+div.content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+}
+
+div.content .content-title {
+    overflow: hidden;
+    width: 600px;
+    text-align: left;
+}
+
+div.content .content-title h1{
+    font-size: 40px;
+}
+div.content .content-title h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+div.content .content-title p{
+    margin: 20px 0 0 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+div.content .content-title ul{
+    overflow: auto;
+    margin: 20px 0 0 0;
+    white-space: nowrap;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+div.content .content-title ul::-webkit-scrollbar{
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+
+div.content .content-title ul li {
+    overflow: hidden;
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+div.content .content-title ul li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.content .content-img {
+    overflow: hidden;
+    width: 90%;
+    max-width: 400px;
+    line-height: 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 1px rgb(100 100 100);
+    transform: translateY(-20%);
+}
+
+div.content .content-img img {
+    width: 100%;
+}
