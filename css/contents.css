@@ -5,6 +5,7 @@ div.main .visual-area .img-canvas {
     margin: 0 auto;
     width: 100%;
     height: 400px;
+    box-shadow: inset 0px -10px 30px -10px rgb(10 10 10);
 }
 
 div.main .visual-area .img-canvas img {
@@ -12,13 +13,13 @@ div.main .visual-area .img-canvas img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    z-index: -1;
 }
 
 div.main .visual-area .img-canvas div.title {
     position: absolute;
     bottom: 0;
     width: 100%;
-    box-shadow: inset 0px -10px 25px -10px black;
 }
 
 
@@ -30,11 +31,29 @@ div.main .visual-area .img-canvas div.title {
 
 
 div.main .visual-area .img-canvas div.title h1 {
+    display: block;
+    padding: 5px;
     margin: 0 auto;
     width: 100%;
     max-width: 1200px;
     font-size: 60px;
     color: #fff;
+    animation: intro 1s ease;
+    box-sizing: border-box;
+}
+
+@keyframes intro {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+div.main .visual-area .img-canvas div.title h1.black {
+    color: #000;
 }
 
 /* 프로그램 정보 */

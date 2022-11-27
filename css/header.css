@@ -99,7 +99,7 @@ header div.menu li div.detail-menu div ul li:last-child {
     margin-bottom: 0;
 }
 
-header div.menu li div.detail-menu div ul li h1 {
+header div.menu li div.detail-menu div ul li:nth-child(1) a {
     font-size: 30px;
     font-weight: 900;
 }
