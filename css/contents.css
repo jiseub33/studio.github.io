@@ -71,6 +71,7 @@ div.content {
 }
 
 div.content .content-title {
+    overflow: hidden;
     width: 600px;
     text-align: left;
 }
@@ -134,12 +135,10 @@ div.content .content-title ul li.youtube div iframe{
 
 
 div.content .content-title div.link {
+    padding: 10px;
     margin: 10px 0 0 0;
     text-align: right;
-}
-
-div.content .content-title div.link h1 {
-    font-size: 30px;
+    box-sizing: border-box;
 }
 
 div.content .content-title div.link a {
