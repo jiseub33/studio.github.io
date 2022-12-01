@@ -1,6 +1,6 @@
 /* 검색옵션 */
 
-div.main .portfolio input.all:checked ~ div ul li {
+div.main .portfolio input.all:checked ~ div ul li:not(.entertainment, .agency) {
     display: block;
     animation: all 1s ease;
 }
