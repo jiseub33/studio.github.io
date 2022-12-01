@@ -74,7 +74,7 @@ div.main {
 }
 
 div.main .title {
-    padding: 100px 0;
+    padding: 100px 10px;
 }
 
 div.main .title .date {
@@ -123,8 +123,9 @@ div.main .text .maintitle {
 }
 
 div.main .text .maintext {
-    margin: 50px auto;
-    width: 1000px;
+    padding: 10px;
+    margin: 40px auto;
+    font-size: 15px;
     font-weight: 300;
 }
 
