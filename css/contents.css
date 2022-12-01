@@ -102,6 +102,10 @@ div.content .content-title ul::-webkit-scrollbar{
     display: none; /* Chrome, Safari, Opera*/
 }
 
+div.content .content-title ul:hover{
+    cursor: url('../images/icons/cursor.cur') 25 25 , auto;
+}
+
 
 div.content .content-title ul li {
     overflow: hidden;
