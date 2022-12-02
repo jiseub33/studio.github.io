@@ -23,7 +23,7 @@ div.main .visual-area .img-canvas div.title {
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1055px) {
     div.main .visual-area .img-canvas div.title {
         display: none;
     }
