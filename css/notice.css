@@ -117,7 +117,6 @@ div.main .notice table {
     border-spacing: 0;
 }
 
-
 div.main .notice table thead tr th {
     padding: 10px;
     height: 50px;
@@ -127,11 +126,17 @@ div.main .notice table thead tr th {
     border-bottom: 1px solid black;
 }
 
+@media screen and (max-width: 600px) {
+    div.main .notice table thead tr th {
+        height: 30px;
+    }
+}
+
 div.main .notice table tbody tr td {
     padding: 20px;
     height: 50px;
     text-align: left;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 300;
     border-bottom: 1px solid black;
     box-sizing: border-box;
