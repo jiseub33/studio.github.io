@@ -21,6 +21,6 @@ a {
 
 @media screen and (max-width: 1000px) {
     div.main {
-        padding: 80px 0 0 0 !important;
+        padding: 80px 0 0 0;
     }
 }
