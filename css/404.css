@@ -1,0 +1,62 @@
+div.main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+div.main .image {
+    margin: 40px auto;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+div.main .image img {
+    width: 100%;
+    height: auto;
+}
+
+div.main .title {
+    margin: 40px auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+div.main .title h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+div.main .title p {
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+div.main .title button {
+    margin: 40px 0 0 0;
+    width: 150px;
+    height: 60px;
+    border: 2px solid rgb(50, 50, 50);
+    border-radius: 60px;
+    background: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .8s all;
+}
+
+
+
+@media screen and (min-width: 1000px) {
+    div.main .title button:hover {
+        box-shadow: 0 0 25px 1px rgb(30, 30, 30);
+        background: rgb(30, 30, 30);
+        color: #fff;
+    }
+}
