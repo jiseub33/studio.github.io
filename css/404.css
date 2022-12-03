@@ -26,21 +26,24 @@ div.main .title {
 }
 
 div.main .title h1 {
-    font-size: 30px;
+    padding: 5px;
+    font-size: 28px;
     font-weight: 800;
+    box-sizing: border-box;
 }
 
 div.main .title p {
-    padding: 10px;
+    padding: 5px;
     margin: 20px 0;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
+    box-sizing: border-box;
 }
 
 div.main .title button {
     margin: 40px 0 0 0;
-    width: 150px;
-    height: 60px;
+    width: 130px;
+    height: 50px;
     border: 2px solid rgb(50, 50, 50);
     border-radius: 60px;
     background: #fff;
@@ -55,7 +58,6 @@ div.main .title button {
 
 @media screen and (min-width: 1000px) {
     div.main .title button:hover {
-        box-shadow: 0 0 25px 1px rgb(30, 30, 30);
         background: rgb(30, 30, 30);
         color: #fff;
     }
