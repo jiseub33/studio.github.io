@@ -123,6 +123,17 @@ div.main .notice .title p {
     display: inline-block;
 }
 
+@media screen and (max-width: 600px) {
+    div.main .notice .title {
+        padding: 10px;
+        border: 3px solid #4552ff;
+        border-radius: 70px;
+        box-sizing: border-box;
+        font-size: 10px;
+    }
+}
+
+
 div.main .notice .title p:nth-child(1) {
     width: 75%;
     text-align: left;
