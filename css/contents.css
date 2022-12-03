@@ -96,6 +96,7 @@ div.content .content-title ul{
     white-space: nowrap;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
+    font-size: 0;
 }
 
 div.content .content-title ul::-webkit-scrollbar{
@@ -110,9 +111,13 @@ div.content .content-title ul:hover{
 div.content .content-title ul li {
     overflow: hidden;
     display: inline-block;
-    width: 250px;
-    height: 150px;
+    width: 299px;
+    height: 168.1875px;
     border-radius: 10px;
+}
+
+div.content .content-title ul li ~ li{
+    margin: 0 0 0 2px;
 }
 
 div.content .content-title ul li img {
@@ -136,7 +141,6 @@ div.content .content-title ul li.youtube div iframe{
     width: 100%;
     height: 100%;
 }
-
 
 div.content .content-title div.link {
     padding: 10px;
