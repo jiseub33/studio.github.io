@@ -1,5 +1,5 @@
 header {
-    position: relative;
+    position: fixed;
     width: 100%;
     box-sizing: border-box;
     font-family: 'Noto Sans KR', sans-serif;
@@ -48,7 +48,7 @@ header div.menu ul {
 
 header div.menu li {
     display: inline-block;
-    padding: 30px 25px;
+    padding: 30px 20px;
     box-sizing: border-box;
 }
 
