@@ -162,7 +162,7 @@ div.main .domain ul li div:nth-child(1) {
     opacity: 0;
 }
 
-div.main .domain ul li div:nth-child(1):hover {
+div.main .domain ul li:hover div {
     opacity: 1;
 }
 
@@ -192,11 +192,11 @@ div.main .domain ul li div:nth-child(1) img {
     transition: 1s all;
 }
 
-div.main .domain ul li div:nth-child(1):hover img {
+div.main .domain ul li:hover div img {
     transform: scale(1.1);
 }
 
-div.main .domain ul li div:nth-child(1):hover video {
+div.main .domain ul li:hover div video {
     transform: scale(1.1);
 }
 
