@@ -118,5 +118,30 @@ div.main .timeline .history ul li h1 {
 
 div.main .timeline .history ul li p {
     padding: 15px 0 0 0;
+    font-size: 20px;
     font-weight: 300;
+}
+
+@media screen and (max-width: 1000px) {
+    div.main .timeline .history ul li {
+        padding: 10px;
+    }
+
+    div.main .timeline .history ul li h1 {
+        font-size: 30px;
+    }
+
+    div.main .timeline .history ul li p  {
+        font-size: 10px;
+    }
+
+    div.main .timeline .history ul li p span {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    div.main .timeline .history ul li p span::after {
+        content: " ㅣ ";
+    }
 }
