@@ -101,6 +101,7 @@ div.main .timeline .history > ul{
 }
 
 div.main .timeline .history ul li {
+    overflow: hidden;
     padding: 20px;
     width: 50%;
     box-sizing: border-box;
@@ -120,6 +121,42 @@ div.main .timeline .history ul li p {
     padding: 15px 0 0 0;
     font-size: 20px;
     font-weight: 300;
+}
+
+div.main .timeline .history ul li:nth-child(odd) h1 {
+    animation: left 1s ease;
+}
+
+div.main .timeline .history ul li:nth-child(odd) p {
+    animation: left 1s ease;
+}
+
+@keyframes left {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+div.main .timeline .history ul li:nth-child(even) h1 {
+    animation: right 1s ease;
+}
+
+div.main .timeline .history ul li:nth-child(even) p {
+    animation: right 1s ease;
+}
+
+@keyframes right {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
 }
 
 @media screen and (max-width: 1000px) {
