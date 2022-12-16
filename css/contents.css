@@ -118,7 +118,7 @@ div.content .content-title ul li {
     border-radius: 10px;
 }
 
-@media screen and (max-width: 1098px) {
+@media screen and (max-width: 1055px) {
     div.content .content-title ul li {
         width: 100%;
     }
@@ -137,8 +137,7 @@ div.content .content-title ul li img {
 
 div.content .content-title ul li.youtube div {
     position:relative;
-    padding-bottom: 50%;
-    padding-top: 40px;
+    padding-bottom: 56.5%;
     height: 0;
     overflow: hidden;
 }
@@ -258,4 +257,8 @@ div.content .content-img {
 
 div.content .content-img img {
     width: 100%;
+}
+
+footer {
+    margin: 50px 0 0 0;
 }
