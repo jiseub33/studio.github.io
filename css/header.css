@@ -1,0 +1,160 @@
+header {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    z-index: 10;
+}
+
+header div.canvas {
+    width: 100%;
+    background: #fff;
+}
+
+header div.canvas > div {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+    box-sizing: border-box;
+    z-index: 150;
+}
+
+header div.logo {
+    padding: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+header div.logo a {
+    display: block;
+    width: 150px;
+}
+
+header div.logo img {
+    width: 100%;
+}
+
+header div.menu {
+    width: 50%;
+}
+
+header div.menu ul {
+    height: 100%;
+}
+
+header div.menu li {
+    display: inline-block;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+header div.menu li a {
+    display: block;
+    font-size: 15px;
+}
+
+header div.menu li div.detail-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background: #fff;
+    transform: translateY(-100%);
+    transition: all 1s;
+    z-index: -1;
+}
+
+header div.menu li:hover div.detail-menu{
+    transform: translateY(0);
+}
+
+header div.menu li div.detail-menu div {
+    padding: 0 20px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+}
+
+header div.menu li div.detail-menu div ul{
+
+}
+
+
+header div.menu li div.detail-menu div ul li {
+    padding: 0;
+    margin: 0 0 10px 0;
+    display: block;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+header div.menu li div.detail-menu div ul li:last-child {
+    margin-bottom: 0;
+}
+
+header div.menu li div.detail-menu div ul li:nth-child(1) a {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+header div.menu li div.detail-menu div ul li a {
+    display: inline;
+}
+
+header div.language {
+    padding: 0 10px;
+}
+
+header div.language ul {
+    height: 100%;
+}
+
+header div.language li {
+    display: inline-block;
+    padding: 30px 10px;
+    box-sizing: border-box;
+}
+
+header div.language li a {
+    display: block;
+    font-size: 15px;
+}
+
+header div.language li.active a {
+    font-weight: 800;
+}
+
+@media screen and (max-width: 1000px) {
+    header {
+        position: fixed;
+    }
+
+    header div.canvas > div {
+        justify-content: flex-end;
+    }
+
+    header div.logo a {
+        width: 150px;
+    }
+
+    header div.menu {
+        display: none;
+    }
+
+    header div.language {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .fixheader {
+        display: none;
+    }
+}

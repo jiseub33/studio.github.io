@@ -1,0 +1,184 @@
+/* 메인 비디오 */
+div.main .visual-area .video-canvas {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+}
+
+@media screen and (max-width: 1000px) {
+    div.main .visual-area .video-canvas {
+        height: 100vh;
+    }
+}
+
+div.main .visual-area .video-canvas video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+div.main .visual-area .video-canvas div.title {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba( 0, 0, 0, 0.1);
+}
+
+div.main .visual-area .video-canvas div.title h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+div.main .visual-area .img-canvas {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    box-shadow: inset 0px -10px 30px -10px rgb(10 10 10);
+}
+
+div.main .visual-area .img-canvas img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+div.main .visual-area .img-canvas div.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+div.main .visual-area .img-canvas div.title h1 {
+    font-size: 50px;
+}
+
+div.main .timeline {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+}
+
+div.main .timeline .bg {
+    margin: 0 auto;
+    width: 5px;
+    height: 700px;
+    border-radius: 0 0 2.5px 2.5px;
+    background: linear-gradient(to bottom, #015eea, #00c0fa);
+}
+
+div.main .timeline .history {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+div.main .timeline .history > ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div.main .timeline .history ul li {
+    overflow: hidden;
+    padding: 20px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+div.main .timeline .history ul li:nth-child(odd) {
+    text-align: right;
+}
+
+div.main .timeline .history ul li h1 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+div.main .timeline .history ul li p {
+    padding: 15px 0 0 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+div.main .timeline .history ul li:nth-child(odd) h1 {
+    animation: left 1s ease;
+}
+
+div.main .timeline .history ul li:nth-child(odd) p {
+    animation: left 1s ease;
+}
+
+@keyframes left {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+div.main .timeline .history ul li:nth-child(even) h1 {
+    animation: right 1s ease;
+}
+
+div.main .timeline .history ul li:nth-child(even) p {
+    animation: right 1s ease;
+}
+
+@keyframes right {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    div.main .timeline .history ul li {
+        padding: 10px;
+    }
+
+    div.main .timeline .history ul li h1 {
+        font-size: 30px;
+    }
+
+    div.main .timeline .history ul li p  {
+        font-size: 10px;
+    }
+
+    div.main .timeline .history ul li p span {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    div.main .timeline .history ul li p span::after {
+        content: " ㅣ ";
+    }
+}

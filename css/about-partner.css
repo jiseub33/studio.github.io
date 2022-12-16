@@ -1,0 +1,102 @@
+/* 메인 비디오 */
+div.main .visual-area .video-canvas {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+}
+
+@media screen and (max-width: 1000px) {
+    div.main .visual-area .video-canvas {
+        height: 100vh;
+    }
+}
+
+div.main .visual-area .video-canvas video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+div.main .visual-area .video-canvas div.title {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba( 0, 0, 0, 0.1);
+}
+
+div.main .visual-area .video-canvas div.title h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+div.main .visual-area .img-canvas {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    box-shadow: inset 0px -10px 30px -10px rgb(10 10 10);
+}
+
+div.main .visual-area .img-canvas img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+div.main .visual-area .img-canvas div.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+div.main .visual-area .img-canvas div.title h1 {
+    font-size: 50px;
+}
+
+div.main .partner {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+}
+
+div.main .partner div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 10    px;
+    width: 100%;
+    box-sizing: border-box;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+div.main .partner div h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+div.main .partner div p {
+    padding: 10px 0 0 0;
+    font-size: 20px;
+    font-weight: 100;
+}

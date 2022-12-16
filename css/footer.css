@@ -1,0 +1,131 @@
+footer {
+    width: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #000;
+    box-sizing: border-box;
+}
+
+footer > div {
+    border-top: 1px solid #E2E2E2;
+}
+
+footer div.footer-middle {
+    width: 100%;
+}
+
+footer div.footer-middle > div {
+    margin: 0 auto;
+    padding: 40px;
+    width: 100%;
+    max-width: 1400px;
+    color: #5c5c5c;
+    font-size: 13px;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+    footer div.footer-middle > div {
+        padding: 15px;
+        font-size: 10px;
+    }
+}
+
+footer div.footer-bottom {
+    width: 100%;
+}
+
+footer div.footer-bottom > div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+    box-sizing: border-box;
+}
+
+footer div.footer-bottom div.footer-bottom-menu {
+    margin: 0 auto;
+}
+
+footer div.footer-bottom div.footer-bottom-menu ul {
+    box-sizing: border-box;
+}
+
+footer div.footer-bottom div.footer-bottom-menu ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+footer div.footer-bottom div.footer-bottom-menu ul li a {
+    color: #5c5c5c;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+footer div.footer-bottom div.footer-bottom-menu ul li span {
+    color: #5c5c5c;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 50px;
+    cursor: default;
+}
+
+@media screen and (max-width: 1000px) {
+    footer div.footer-bottom div.footer-bottom-menu ul li{
+        display: inline-block;
+        margin: 0;
+    }
+
+    footer div.footer-bottom div.footer-bottom-menu ul li a {
+        font-size: 10px;
+        line-height: 30px;
+    }
+
+    footer div.footer-bottom div.footer-bottom-menu ul li span {
+        font-size: 10px;
+        line-height: 30px;
+    }
+}
+
+
+
+footer div.footer-bottom div.sns {
+    margin: 0 auto;
+}
+
+footer div.footer-bottom div.sns ul {
+    box-sizing: border-box;
+}
+
+footer div.footer-bottom div.sns ul li{
+    display: inline-block;
+    margin: 0 20px;
+    box-sizing: border-box;
+}
+
+footer div.footer-bottom div.sns ul li a {
+    display: block;
+    width: 50px;
+}
+
+footer div.footer-bottom div.sns ul li a img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    footer div.footer-bottom div.sns ul li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    footer div.footer-bottom div.sns ul li a {
+        display: block;
+        width: 30px;
+    }
+}

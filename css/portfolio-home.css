@@ -1,0 +1,46 @@
+/* 검색옵션 */
+
+div.main .portfolio input.all:checked ~ div ul li:not(.photo, .live) {
+    display: block;
+    animation: all 1s ease;
+}
+
+div.main .portfolio input.video:checked ~ div ul li.video {
+    display: block;
+    animation: some 1s ease;
+}
+
+div.main .portfolio input.photo:checked ~ div ul li.photo {
+    display: block;
+    animation: some 1s ease;
+}
+
+div.main .portfolio input.live:checked ~ div ul li.live {
+    display: block;
+    animation: some 1s ease;
+}
+
+div.main .portfolio input.web:checked ~ div ul li.web {
+    display: block;
+    animation: some 1s ease;
+}
+
+@keyframes all {
+    0% {
+        transform: translateY(20%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes some {
+    0% {
+        transform: translateY(20%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
