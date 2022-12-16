@@ -259,6 +259,8 @@ div.content .content-img img {
     width: 100%;
 }
 
-footer {
-    margin: 50px 0 0 0;
+@media screen and (max-width: 1055px) {
+    footer {
+        margin: 50px 0 0 0;
+    }
 }
