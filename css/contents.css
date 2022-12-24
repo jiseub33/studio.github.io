@@ -75,6 +75,7 @@ div.content > div {
 
 div.content .content-title {
     overflow: hidden;
+    padding: 20px 0;
     width: 600px;
     text-align: left;
 }
@@ -92,6 +93,21 @@ div.content .content-title > p{
     font-size: 14px;
     font-weight: 300;
 }
+
+@media screen and (max-width: 1055px) {
+    div.content .content-title h1{
+        font-size: 30px;
+    }
+
+    div.content .content-title h2{
+        font-size: 15px;
+    }
+
+    div.content .content-title > p{
+        font-size: 10px;
+    }
+}
+
 
 div.content .content-title ul{
     overflow: auto;
@@ -155,6 +171,12 @@ div.content .content-title div.link {
     margin: 10px 0 0 0;
     text-align: right;
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 1055px) {
+    div.content .content-title div.link {
+        padding: 10px 0;
+    }
 }
 
 div.content .content-title div.link a {
@@ -245,10 +267,16 @@ div.content .content-title div.link p {
     font-size: 12px;
 }
 
+@media screen and (max-width: 1055px) {
+    div.content .content-title div.link p {
+        font-size: 10px;
+    }
+}
+
 div.content .content-img {
     overflow: hidden;
     width: 90%;
-    max-width: 400px;
+    max-width: 410px;
     line-height: 0;
     border-radius: 10px;
     box-shadow: 0px 0px 25px 1px rgb(100 100 100);

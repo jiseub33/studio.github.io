@@ -103,19 +103,21 @@ div.main .visual-area .img-canvas div.title h1.white {
 
 /* 공지 */
 div.main .notice {
-    padding: 50px 10px;
-    margin: 0 auto;
-    width: 100%;
+    margin: 50px auto;
+    width: 90%;
     max-width: 1200px;
-    border-radius: 10px;
+    border-radius: 25px;
     text-align: center;
     box-sizing: border-box;
+    box-shadow: 0px 0px 25px 1px rgb(223 223 223);
 }
 
 div.main .notice .title {
     padding: 20px;
-    border: 3px solid #4552ff;
-    border-radius: 70px;
+    background: #4552ff;
+    border-radius: 25px 25px 0 0;
+    color: #fff;
+    font-weight: 500;
     box-sizing: border-box;
 }
 
@@ -123,12 +125,9 @@ div.main .notice .title p {
     display: inline-block;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1055px) {
     div.main .notice .title {
-        padding: 10px;
-        border: 3px solid #4552ff;
-        border-radius: 70px;
-        box-sizing: border-box;
+        padding: 15px;
         font-size: 10px;
     }
 }
@@ -141,6 +140,7 @@ div.main .notice .title p:nth-child(1) {
 
 div.main .notice .title p:nth-child(2) {
     width: 24%;
+    text-align: right;
 }
 
 div.main .maintext {
@@ -151,11 +151,10 @@ div.main .maintext {
 }
 
 div.main button {
-    margin: 70px 0;
+    margin: 50px 0;
     width: 150px;
     height: 60px;
-    border: 2px solid #4552ff;
-    border-radius: 60px;
+    border: none;
     background: #fff;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 15px;
