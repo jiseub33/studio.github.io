@@ -64,7 +64,6 @@ div.main .visual-area .video-canvas div.title h1 {
     transform: translate(-50%, -50%);
 }
 
-
 /* 메인 이미지 */
 div.main .visual-area .img-canvas {
     overflow: hidden;
@@ -111,94 +110,28 @@ div.main .visual-area .img-canvas div.title h1.white {
     color: #fff;
 }
 
-/* 뉴스룸 */
-div.main .newsroom {
-    padding: 50px 0;
+div.main .sitemap {
+    width: 100%;
+}
+
+div.main .sitemap {
     margin: 0 auto;
     width: 100%;
-    max-width: 1020px;
-    text-align: left;
-    box-sizing: border-box;
+    max-width: 1400px;
 }
 
-@media screen and (max-width: 1037px) {
-    div.main .newsroom {
-        max-width: 680px;
-    }
+div.main .sitemap ul {
+    padding: 10px;
 }
 
-@media screen and (max-width: 697px) {
-    div.main .newsroom {
-        max-width: 340px;
-    }
+div.main .sitemap li {
+    margin: 30px 0;
 }
 
-div.main .newsroom > div {
-    overflow: hidden;
-    padding: 20px 0;
-    margin: 10px 0 0 0;
+div.main .sitemap ul li p {
+    padding: 20px 0 0 0;
 }
 
-div.main .newsroom div ul {
-    overflow: auto;
-    padding: 20px 0;
-    font-size: 0;
-}
-
-
-div.main .newsroom div ul li {
-    display: inline-block;
-    position: relative;
-    width: 300px;
-    margin: 20px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 25px 1px rgb(223 223 223);
-    vertical-align: top;
-}
-
-div.main .newsroom div ul li div.image {
-    overflow: hidden;
-    width: 100%;
-    height: 200px;
-    border-radius: 15px 15px 0 0;
-}
-
-div.main .newsroom div ul li:hover div.image img {
-    transform: scale(1.1);
-    filter: brightness(0.8);
-}
-
-div.main .newsroom div ul li div.image img {
-    width: 100%;
-    transition: all .5s;
-}
-
-div.main .newsroom div ul li div.title {
-    padding: 25px;
-    height: 175px;
-    text-align: left;
-    box-sizing: border-box;
-}
-
-div.main .newsroom div ul li div.title p.topic {
-    color: #616161;
-    font-size: 12px;
-    font-weight: 700;
-}
-
-div.main .newsroom div ul li div.title h1 {
-    padding: 2.5px 0 0;
-    text-align: left;
-    font-size: 23px;
-    font-weight: 700;
-    box-sizing: border-box;
-}
-
-div.main .newsroom div ul li div.title p.date {
-    position: absolute;
-    left: 25px;
-    bottom: 25px;
-    color: #616161;
-    font-size: 14px;
-    font-weight: 500;
+div.main .sitemap ul li p a{
+    padding: 0 20px 0 0;
 }
