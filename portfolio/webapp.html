@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>STUDIO JISBY ㅣ 홈</title>
+    <title>웹개발ㅣ포토폴리오ㅣSTUDIO JISBY</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="../css/default.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/mobile-menu.css">
-    <link rel="stylesheet" href="../css/notice-post.css">
+    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="../css/portfolio-web.css">
     <link rel="stylesheet" href="../css/footer.css">
     <script src="https://code.jquery.com/jquery-latest.js"></script>
 </head>
@@ -42,17 +43,13 @@
                     </details>
                     <details>
                         <summary>포토폴리오</summary>
-                        <span><a href="https://www.jisby.com/portfolio">포토폴리오</a></span>
+                        <span><a href="https://www.jisby.com/portfolio">전체보기</a></span>
                         <span><a href="https://www.jisby.com/portfolio/video">영상</a></span>
-                        <span><a href="https://www.jisby.com/portfolio/photo">사진</a></span>
-                        <span><a href="https://www.jisby.com/portfolio/live">라이브</a></span>
-                        <span><a href="https://www.jisby.com/portfolio/web">웹개발</a></span>
+                        <span><a href="https://www.jisby.com/portfolio/design">디자인</a></span>
+                        <span><a href="https://www.jisby.com/portfolio/webapp">웹/앱 제작</a></span>
                     </details>
                     <details>
                         <summary><a href="https://www.jisby.com/newsroom">NEWSROOM</a></summary>
-                    </details>
-                    <details>
-                        <summary><a href="https://www.jisby.com/notice">NOTICE</a></summary>
                     </details>
                     <details>
                         <summary>지원</summary>
@@ -67,7 +64,7 @@
             <div>
                 <div class="logo">
                     <a href="https://www.jisby.com">
-                        <img src="images/logo/logo_header_STUDIOJISBY.png" alt="로고, LOGO">
+                        <img src="https://www.jisby.com/images/logo/logo_header_STUDIOJISBY.png" alt="로고, LOGO">
                     </a>
                 </div>
                 <div class="menu">
@@ -90,20 +87,17 @@
                             <div class="detail-menu">
                                 <div>
                                     <ul>
-                                        <li><a href="https://www.jisby.com/portfolio">포토폴리오</a></li>
+                                        <li><a href="#">포토폴리오</a></li>
+                                        <li><a href="https://www.jisby.com/portfolio">전체보기</a></li>
                                         <li><a href="https://www.jisby.com/portfolio/video">영상</a></li>
-                                        <li><a href="https://www.jisby.com/portfolio/photo">사진</a></li>
-                                        <li><a href="https://www.jisby.com/portfolio/live">라이브</a></li>
-                                        <li><a href="https://www.jisby.com/portfolio/web">웹개발</a></li>
+                                        <li><a href="https://www.jisby.com/portfolio/design">디자인</a></li>
+                                        <li><a href="https://www.jisby.com/portfolio/webapp">웹/앱 제작</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <a href="https://www.jisby.com/newsroom">NEWSROOM</a>
-                        </li>
-                        <li>
-                            <a href="https://www.jisby.com/notice">공지</a>
                         </li>
                         <li>
                             <a href="#">지원</a>
@@ -131,14 +125,46 @@
         </div>
     </header>
     <div class="main">
-        <div class="notice">
-            <div class="title">
-                <p>홈페이지는, 여기까지 완성이에요!</p>
-                <p>2022-12-02</p>
+        <div class="visual-area">
+            <div class="img-canvas">
+                <img src="../../images/visual-area/coding.jpg" alt="">
+                <div class="title">
+                    <h1 class="white">웹개발</h1>
+                </div>
             </div>
-            <p class="maintext">현재 홈페이지는 포토폴리오 전부와 뉴스룸만 운영중에 있습니다.
-            <br>빠른 시일 내에 완성하여 이용에 불편함이 없으시도록 하겠습니다. 감사합니다.</p>
-            <button onclick="location.href='https://www.jisby.com/notice'">목록</button>
+        </div>
+        <div class="portfolio">
+            <input type="radio" id="all" name="portfolio" class="all" checked><label for="all">전체</label>
+            <input type="radio" id="group" name="portfolio" class="group"><label for="group">그룹</label>
+            <input type="radio" id="entertainment" name="portfolio" class="entertainment"><label for="entertainment">엔터테인먼트</label>
+            <input type="radio" id="agency" name="portfolio" class="agency"><label for="agency">기관/단체</label>
+            <div>
+                <ul>
+                    <li class="group">
+                        <a href="https://www.jisby.com/portfolio/web/navyalliance">
+                            <div class="cover_img">
+                                <img src="../images/websites/group/navyalliance/poster/poster_navyalliance2.jpg" alt="">
+                                <span>
+                                    <h1>네이비연합</h1>
+                                    <h2>NAVYALLIANCE</h2>
+                                    <p>디자인 ㅣ 홍지습</p>
+                                    <p>퍼블리싱 ㅣ 홍지습</p>
+                                </span>
+                            </div>
+                            <div class="cover_title">
+                                <h1>네이비연합</h1>
+                                <p>그룹 ㅣ 디자인 홍지습 ㅣ 퍼블리싱 홍지습</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="entertainment">
+                        <h1>콘텐츠가 없습니다.</h1>
+                    </li>
+                    <li class="agency">
+                        <h1>콘텐츠가 없습니다.</h1>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <footer>
@@ -148,34 +174,34 @@
                     <p>대표 : 홍지습
                     <br>상담가능시간 ㅣ 평일: 오후시간대 ㅣ 주말: 오전 9시 ~ 오후 10시 ㅣ휴일: 공휴일 ㅣ
                     <br>본 사이트의 컨텐츠(이미지, GIF, 동영상파일 등등)는 모두 STUDIO JISBY에서 기획 및 제작하였으며 무단 전재, 복사, 배포 등을 금하고 있으니 참고부탁드립니다.
-                    <br><span class="copyright">©2016-2022 STUDIO JISBY. All Rights Reserved.</span>
+                    <br><span class="copyright">©2016-2023 STUDIO JISBY. All Rights Reserved.</span>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
             <div>
                 <div class="footer-bottom-menu">
-                    <ul>
+                                        <ul>
                         <li>
-                            <a href="">회사 소개</a>
+                            <a href="https://www.jisby.com/about/us">회사 소개</a>
                         </li>
                         <li>
                             <span>ㅣ</span>
                         </li>
                         <li>
-                            <a href="">파트너</a>
+                            <a href="https://www.jisby.com/about/partner">파트너</a>
                         </li>
                         <li>
                             <span>ㅣ</span>
                         </li>
                         <li>
-                            <a href="">공지사항</a>
+                            <a href="https://www.jisby.com/newsroom">NEWSROOM</a>
                         </li>
                         <li>
                             <span>ㅣ</span>
                         </li>
                         <li>
-                            <a href="">사이트맵</a>
+                            <a href="https://www.jisby.com/sitemap">사이트맵</a>
                         </li>
                         <li>
                             <span>ㅣ</span>

@@ -1,26 +1,16 @@
 /* 검색옵션 */
 
-div.main .portfolio input.all:checked ~ div ul li:not(.photo, .live) {
+div.main .portfolio input.all:checked ~ div ul li:not(.logo) {
     display: block;
     animation: all 1s ease;
 }
 
-div.main .portfolio input.video:checked ~ div ul li.video {
+div.main .portfolio input.youtube:checked ~ div ul li.youtube {
     display: block;
     animation: some 1s ease;
 }
 
-div.main .portfolio input.design:checked ~ div ul li.design {
-    display: block;
-    animation: some 1s ease;
-}
-
-div.main .portfolio input.live:checked ~ div ul li.live {
-    display: block;
-    animation: some 1s ease;
-}
-
-div.main .portfolio input.webapp:checked ~ div ul li.webapp {
+div.main .portfolio input.logo:checked ~ div ul li.logo {
     display: block;
     animation: some 1s ease;
 }
