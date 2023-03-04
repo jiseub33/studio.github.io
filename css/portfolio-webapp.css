@@ -1,16 +1,16 @@
 /* 검색옵션 */
 
-div.main .portfolio input.all:checked ~ div ul li:not(.poster) {
+div.main .portfolio input.all:checked ~ div ul li {
     display: block;
     animation: all 1s ease;
 }
 
-div.main .portfolio input.shooting:checked ~ div ul li.shooting {
+div.main .portfolio input.web:checked ~ div ul li.web {
     display: block;
     animation: some 1s ease;
 }
 
-div.main .portfolio input.poster:checked ~ div ul li.poster {
+div.main .portfolio input.app:checked ~ div ul li.app {
     display: block;
     animation: some 1s ease;
 }
