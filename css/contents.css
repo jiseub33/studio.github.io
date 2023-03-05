@@ -221,6 +221,15 @@ div.content .content-title .content-photo ul li span h1 {
     }
 }
 
+@media screen and (max-width: 1055px) {
+    div.content .content-title .content-photo ul li span {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        transform: translateX(-50%);
+    }
+}
+
 div.content .content-title .content-photo ul li.youtube div {
     position:relative;
     padding-bottom: 56.5%;
