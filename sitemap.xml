@@ -9,122 +9,127 @@
 
 <url>
   <loc>https://www.jisby.com/</loc>
-  <lastmod>2023-02-25T18:20:41+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.jisby.com/about/us</loc>
-  <lastmod>2023-02-25T18:20:40+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2023-03-13T08:09:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.jisby.com/about/history</loc>
-  <lastmod>2023-02-25T18:20:40+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2023-03-13T08:09:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.jisby.com/about/partner</loc>
-  <lastmod>2023-02-25T18:20:40+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2023-03-13T08:09:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.jisby.com/portfolio</loc>
-  <lastmod>2023-02-25T18:20:41+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.jisby.com/portfolio/video</loc>
-  <lastmod>2023-02-25T18:20:41+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.jisby.com/portfolio/photo</loc>
-  <lastmod>2023-02-25T18:20:41+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <loc>https://www.jisby.com/portfolio/design</loc>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.jisby.com/portfolio/live</loc>
-  <lastmod>2023-02-25T18:20:41+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.jisby.com/portfolio/web</loc>
-  <lastmod>2023-02-25T18:20:41+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <loc>https://www.jisby.com/portfolio/webapp</loc>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.jisby.com/newsroom</loc>
-  <lastmod>2023-02-25T18:20:41+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.jisby.com/portfolio/video/time_to_rest</loc>
-  <lastmod>2023-02-25T18:20:41+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.jisby.com/portfolio/video/cn_election_broadcast</loc>
-  <lastmod>2023-02-25T18:20:41+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.jisby.com/portfolio/video/broadcast_design_CNBS</loc>
-  <lastmod>2023-02-25T18:20:41+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jisby.com/newsroom/2023-03-05-01-22</loc>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.jisby.com/newsroom/2023-01-29-20-22</loc>
-  <lastmod>2023-02-25T18:20:41+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.jisby.com/newsroom/2022-12-02-02-10</loc>
-  <lastmod>2023-02-25T18:20:41+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.jisby.com/sitemap</loc>
-  <lastmod>2023-02-25T18:20:41+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://www.jisby.com/portfolio/video/navy_squidgame</loc>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jisby.com/portfolio/video/sangnam_church</loc>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jisby.com/portfolio/video/jisby_valorant_intro</loc>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://www.jisby.com/portfolio/video/cn_esports_broadcast</loc>
-  <lastmod>2023-02-25T18:20:41+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.jisby.com/portfolio/video/changwon_media_festival_ucc_2022</loc>
-  <lastmod>2023-02-25T18:20:41+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.jisby.com/portfolio/video/cn_graduation_broadcast</loc>
-  <lastmod>2023-02-25T18:20:40+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jisby.com/portfolio/design/digital_car_center</loc>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jisby.com/portfolio/app/gbtwcoupon</loc>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.jisby.com/portfolio/web/navyalliance</loc>
-  <lastmod>2023-02-25T18:20:41+00:00</lastmod>
-  <changefreq>monthly</changefreq>
+  <lastmod>2023-03-13T08:09:07+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 

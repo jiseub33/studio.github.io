@@ -18,7 +18,22 @@ a {
     cursor: pointer;
 }
 
-
 div.main {
     padding: 61.6px 0 0 0;
+}
+
+html { overflow: overlay;}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgba(0,0,0,0);
+}
+
+::-webkit-scrollbar-thumb{  
+    background: rgba(100, 100, 100,1);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track{
+
 }
