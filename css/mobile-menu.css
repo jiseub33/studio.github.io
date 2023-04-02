@@ -22,6 +22,12 @@
     width: 25px;
     height: 25px;
     background: url("../images/icons/menu-bar.svg") no-repeat;
+    filter: contrast(0) brightness(2);
+    transition: .5 all;
+}
+
+.fixheader label.small div {
+    filter: none;
 }
 
 input:checked ~ div.sidebar {
@@ -56,8 +62,8 @@ div.sidebar {
     display: none; /* Chrome, Safari, Opera*/
 }
 
-.sidebar-header {
-
+.sidebar label div {
+    filter: none;
 }
 
 .sidebar-header-text {
