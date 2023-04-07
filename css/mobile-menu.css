@@ -49,10 +49,6 @@ div.sidebar {
     transition: all 1s;
 }
 
-.fixheader {
-
-}
-
 .sidebar {
     overflow: auto;
     cursor: default;

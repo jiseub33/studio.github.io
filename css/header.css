@@ -170,33 +170,36 @@ header div.language li.active a {
 header.index div.canvas {
     width: 100%;
     background: none;
-    transition: all .5s;
+    transition: all .5s .5s;
 }
 
-header.small:hover div.canvas {
+header.index:hover div.canvas {
     background: #fff;
+    transition: none;
 }
 
 header.index div.logo img {
     width: 100%;
     filter: contrast(0) brightness(2);
-    transition: all 1s;
+    transition: all 1s .5s;
 }
 
-header.small:hover div.logo img {
+header.index:hover div.logo img {
     width: 100%;
     filter: none;
+    transition: all .5s;
 }
 
 header.index div.menu li a {
     display: block;
     font-size: 15px;
     color: #fff;
-    transition: all .5s;
+    transition: all .5s .5s;
 }
 
 header.index:hover div.menu li a {
     color: #000;
+    transition: all .5s;
 }
 
 header.index div.menu li div.detail-menu {
@@ -209,28 +212,30 @@ header.index div.menu li div.detail-menu {
     background: none;
     border-bottom: none;
     transform: translateY(-100%);
-    transition: all .5s;
+    transition: transform .5s, background .5s .5s;
     z-index: -1;
 }
 
-header.index div.menu li:hover div.detail-menu {
-    transform: translateY(0);
+header.index div.menu li div.detail-menu a {
+    color: #000;
 }
 
-header.index:hover div.menu li div.detail-menu {
+header.index div.menu li:hover div.detail-menu {
+    transform: translateY(0%);
     background: #fff;
-    border-bottom: 1px solid #e2e2e2;
+    transition: transform .5s, background .5s;
 }
 
 header.index div.language li a {
     display: block;
     font-size: 15px;
     color: #fff;
-    transition: all .5s;
+    transition: all .5s .5s;
 }
 
 header.index:hover div.language li a {
     color: #000;
+    transition: all .5s;
 }
 
 /* 뷰포트 이상으로 스크롤시 */
@@ -240,15 +245,18 @@ header.small {
 
 header.index div.small {
     background: #fff;
+    transition: all .5s;
 }
 
 header.index .small div.logo img {
     width: 100%;
     filter: none;
+    transition: all .5s;
 }
 
 header.index .small div.menu li a {
     color: #000;
+    transition: all .5s;
 }
 
 header.index .small div.menu li div.detail-menu {
@@ -258,4 +266,5 @@ header.index .small div.menu li div.detail-menu {
 
 header.index .small div.language li a {
     color: #000;
+    transition: all .5s;
 }
