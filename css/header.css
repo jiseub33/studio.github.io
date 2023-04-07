@@ -9,21 +9,8 @@ header {
     transition: all .5s;
 }
 
-header.small {
-    border-bottom: 1px solid #e2e2e2;
-}
-
 header div.canvas {
     width: 100%;
-    background: none;
-    transition: all .5s;
-}
-
-header:hover div.canvas {
-    background: #fff;
-}
-
-header div.small {
     background: #fff;
 }
 
@@ -51,18 +38,6 @@ header div.logo a {
 
 header div.logo img {
     width: 100%;
-    filter: contrast(0) brightness(2);
-    transition: all 1s;
-}
-
-header:hover div.logo img {
-    width: 100%;
-    filter: none;
-}
-
-header .small div.logo img {
-    width: 100%;
-    filter: none;
 }
 
 header div.menu {
@@ -82,16 +57,7 @@ header div.menu li {
 header div.menu li a {
     display: block;
     font-size: 15px;
-    color: #fff;
     transition: all .5s;
-}
-
-header:hover div.menu li a {
-    color: #000;
-}
-
-header .small div.menu li a {
-    color: #000;
 }
 
 header div.menu li div.detail-menu {
@@ -101,28 +67,14 @@ header div.menu li div.detail-menu {
     left: 0;
     width: 100%;
     height: 400px;
-    background: none;
-    border-bottom: none;
+    background: #fff;
+    border-bottom: 1px solid #e2e2e2;
     transform: translateY(-100%);
     transition: all .5s;
     z-index: -1;
 }
 
-header:hover div.menu li div.detail-menu {
-    background: #fff;
-    border-bottom: 1px solid #e2e2e2;
-}
-
-header small div.menu li div.detail-menu {
-    background: #fff;
-    border-bottom: 1px solid #e2e2e2;
-}
-
 header div.menu li:hover div.detail-menu {
-    transform: translateY(0);
-}
-
-header .small div.menu li:hover div.detail-menu {
     transform: translateY(0);
 }
 
@@ -133,11 +85,6 @@ header div.menu li div.detail-menu div {
     max-width: 1000px;
     box-sizing: border-box;
 }
-
-header div.menu li div.detail-menu div ul{
-
-}
-
 
 header div.menu li div.detail-menu div ul li {
     padding: 0;
@@ -177,16 +124,7 @@ header div.language li {
 header div.language li a {
     display: block;
     font-size: 15px;
-    color: #fff;
     transition: all .5s;
-}
-
-header:hover div.language li a {
-    color: #000;
-}
-
-header .small div.language li a {
-    color: #000;
 }
 
 header div.language li.active a {
@@ -226,4 +164,98 @@ header div.language li.active a {
     .fixheader {
         display: none;
     }
+}
+
+/* index */
+header.index div.canvas {
+    width: 100%;
+    background: none;
+    transition: all .5s;
+}
+
+header.small:hover div.canvas {
+    background: #fff;
+}
+
+header.index div.logo img {
+    width: 100%;
+    filter: contrast(0) brightness(2);
+    transition: all 1s;
+}
+
+header.small:hover div.logo img {
+    width: 100%;
+    filter: none;
+}
+
+header.index div.menu li a {
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    transition: all .5s;
+}
+
+header.index:hover div.menu li a {
+    color: #000;
+}
+
+header.index div.menu li div.detail-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background: none;
+    border-bottom: none;
+    transform: translateY(-100%);
+    transition: all .5s;
+    z-index: -1;
+}
+
+header.index div.menu li:hover div.detail-menu {
+    transform: translateY(0);
+}
+
+header.index:hover div.menu li div.detail-menu {
+    background: #fff;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+header.index div.language li a {
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    transition: all .5s;
+}
+
+header.index:hover div.language li a {
+    color: #000;
+}
+
+/* 뷰포트 이상으로 스크롤시 */
+header.small {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+header.index div.small {
+    background: #fff;
+}
+
+header.index .small div.logo img {
+    width: 100%;
+    filter: none;
+}
+
+header.index .small div.menu li a {
+    color: #000;
+}
+
+header.index .small div.menu li div.detail-menu {
+    background: #fff;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+header.index .small div.language li a {
+    color: #000;
 }
