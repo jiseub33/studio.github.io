@@ -24,13 +24,14 @@
     background: url("../images/icons/menu-bar.svg") no-repeat;
 }
 
-nav.index label div {
+nav.index > label div {
     filter: contrast(0) brightness(2);
-    transition: .5 all;
+    transition: all .5s .5s;
 }
 
-nav.index label.small div {
+nav.index > label.small div {
     filter: none;
+    transition: all .5s;
 }
 
 input:checked ~ div.sidebar {

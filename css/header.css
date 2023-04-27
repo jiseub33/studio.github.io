@@ -2,7 +2,7 @@ header {
     position: fixed;
     width: 100%;
     box-sizing: border-box;
-    border-bottom: none;
+    border-bottom: 1px solid #e2e2e2;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 500;
     z-index: 10;
@@ -167,27 +167,34 @@ header div.language li.active a {
 }
 
 /* index */
+header.index {
+    border-bottom: none;
+    transition: all .5s;
+}
+
 header.index div.canvas {
     width: 100%;
     background: none;
     transition: all .5s .5s;
 }
 
-header.index:hover div.canvas {
-    background: #fff;
-    transition: none;
+@media screen and (min-width: 1000px) {
+    header.index:hover div.canvas {
+        background: #fff;
+        transition: none;
+    }
+
+    header.index:hover div.logo img {
+        width: 100%;
+        filter: none;
+        transition: all .5s;
+    }
 }
 
 header.index div.logo img {
     width: 100%;
     filter: contrast(0) brightness(2);
     transition: all 1s .5s;
-}
-
-header.index:hover div.logo img {
-    width: 100%;
-    filter: none;
-    transition: all .5s;
 }
 
 header.index div.menu li a {
