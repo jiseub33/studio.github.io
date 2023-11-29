@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Button Click</title>
+</head>
+<body>
+  <input type="text" id="inputText" list="options" onkeydown="handleKeyDown(event)">
+  <datalist id="options">
+  </datalist>
+  <button onclick="navigateToURL()">Go</button>
+
+  <script>
+    var savedValues = {
+      "회사소개": {
+        url: "https://www.jisby.com/about/us",
+        info: "소개 > 회사소개"
+      },
+      "쉬어가는타임": {
+        url: "https://www.jisby.com/portfolio/video/time_to_rest",
+        info: "포토폴리오 > 영상"
+      },
+      // Add other saved values and their URLs/info here
+    };
+
+    function populateDataList() {
+      var dataList = document.getElementById("options");
+      dataList.innerHTML = "";
+
+      for (var value in savedValues) {
+        var option = document.createElement("option");
+        option.value = value;
+        option.textContent = savedValues[value].info; // Set additional information as option text
+        dataList.appendChild(option);
+      }
+    }
+
+    function navigateToURL() {
+      var inputValue = document.getElementById("inputText").value;
+      var selectedValue = savedValues[inputValue];
+
+      if (selectedValue && selectedValue.url) {
+        window.open(selectedValue.url, "_blank");
+      } else {
+        alert("No URL found for the input value");
+      }
+    }
+
+    function handleKeyDown(event) {
+      if (event.keyCode === 13) {
+        event.preventDefault();
+        document.getElementById("goButton").click(); // Simulate button click
+      }
+    }
+
+    populateDataList();
+  </script>
+</body>
+</html>
