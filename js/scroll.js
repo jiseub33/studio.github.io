@@ -1,4 +1,3 @@
-
 $('.content-photo').on('wheel', function(e){
 
    e.preventDefault();

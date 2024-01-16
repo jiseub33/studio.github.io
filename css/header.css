@@ -12,6 +12,19 @@ header {
 header div.canvas {
     width: 100%;
     background: #fff;
+    transition: all .3s !important;
+}
+
+header div.canvas:has(.menu > ul > li:nth-child(1):hover) {
+    padding: 0 0 212px 0;
+}
+
+header div.canvas:has(.menu > ul > li:nth-child(2):hover) {
+    padding: 0 0 258px 0;
+}
+
+header div.canvas:has(.menu > ul > li:nth-child(4):hover) {
+    padding: 0 0 120px 0;
 }
 
 header div.canvas > div {
@@ -61,32 +74,29 @@ header div.menu li a {
 }
 
 header div.menu li div.detail-menu {
-    display: block;
+    display: none;
     position: absolute;
-    top: 100%;
+    top: 81px;
     left: 0;
     width: 100%;
-    height: 400px;
-    background: #fff;
-    border-bottom: 1px solid #e2e2e2;
-    transform: translateY(-100%);
+    background: none;
+    border-bottom: none;
     transition: all .5s;
-    z-index: -1;
+    z-index: 5;
 }
 
 header div.menu li:hover div.detail-menu {
-    transform: translateY(0);
-}
-
-header div.menu li div.detail-menu div {
-    padding: 0 20px;
-    margin: 20px auto;
+    display: block;
     width: 100%;
-    max-width: 1000px;
     box-sizing: border-box;
 }
 
-header div.menu li div.detail-menu div ul li {
+header div.menu li div.detail-menu ul {
+    margin: 0 auto;
+    width: 60%;
+}
+
+header div.menu li div.detail-menu ul li {
     padding: 0;
     margin: 0 0 10px 0;
     display: block;
@@ -94,16 +104,16 @@ header div.menu li div.detail-menu div ul li {
     font-weight: 300;
 }
 
-header div.menu li div.detail-menu div ul li:last-child {
+header div.menu li div.detail-menu ul li:last-child {
     margin-bottom: 0;
 }
 
-header div.menu li div.detail-menu div ul li:nth-child(1) a {
+header div.menu li div.detail-menu ul li:nth-child(1) a {
     font-size: 30px;
     font-weight: 900;
 }
 
-header div.menu li div.detail-menu div ul li a {
+header div.menu li div.detail-menu ul li a {
     display: inline;
 }
 
@@ -173,15 +183,14 @@ header.index {
 }
 
 header.index div.canvas {
+    padding: 0;
     width: 100%;
     background: none;
-    transition: all .5s .5s;
 }
 
 @media screen and (min-width: 1000px) {
     header.index:hover div.canvas {
         background: #fff;
-        transition: none;
     }
 
     header.index:hover div.logo img {
@@ -194,14 +203,14 @@ header.index div.canvas {
 header.index div.logo img {
     width: 100%;
     filter: contrast(0) brightness(2);
-    transition: all 1s .5s;
+    transition: all 1s;
 }
 
 header.index div.menu li a {
     display: block;
     font-size: 15px;
     color: #fff;
-    transition: all .5s .5s;
+    transition: all .5s;
 }
 
 header.index:hover div.menu li a {
@@ -209,35 +218,20 @@ header.index:hover div.menu li a {
     transition: all .5s;
 }
 
-header.index div.menu li div.detail-menu {
-    display: block;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 400px;
-    background: none;
-    border-bottom: none;
-    transform: translateY(-100%);
-    transition: transform .5s, background .5s .5s;
-    z-index: -1;
-}
-
 header.index div.menu li div.detail-menu a {
     color: #000;
 }
 
 header.index div.menu li:hover div.detail-menu {
-    transform: translateY(0%);
-    background: #fff;
-    transition: transform .5s, background .5s;
+    display: block;
+    transition: all .5s;
 }
 
 header.index div.language li a {
     display: block;
     font-size: 15px;
     color: #fff;
-    transition: all .5s .5s;
+    transition: all .5s;
 }
 
 header.index:hover div.language li a {
